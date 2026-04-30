@@ -1,19 +1,19 @@
 #include "operaciones.h"
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
-
-int sumar(int a, int b) {
+// const evita modificar los parámetros.
+int sumar(const int a, const int b) {
     return a + b;
 }
 
 /* ── restar — ya implementada ────────────────────────────────────────────── */
 
-int restar(int a, int b) {
+int restar(const int a, const int b) {
     return a - b;
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
-//la funcion multiplicar toma dos enteros a y b, y devuelve el resultado de multiplicarlos. La función utiliza el operador de multiplicación (*) para realizar la operación y retorna el resultado.
+// Multiplica dos números enteros.
 int multiplicar(int a, int b) {
     return a * b;
 }
