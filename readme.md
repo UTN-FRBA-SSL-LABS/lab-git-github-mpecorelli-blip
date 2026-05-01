@@ -545,15 +545,15 @@ _(escribí SI cuando el conflicto esté resuelto y pusheado)_
 
 **P3** — Un compañero te dice: "yo hago un solo commit al final del día con todo lo que hice". ¿Qué problemas puede traer esa práctica? ¿Qué le dirías?
 
-> R:
+> R:Hacer solo un commit con más de una acción no es una buena práctica a la hora de trabajar con git, ya que de ser necesario revertir ciertas acciones, no puedo aislar los cambios por cada commit, sino que debo eliminar todo y luego limpiar y rehacer lo que estaba bien, lo cual resulta impráctico y totalmente innecesario
 
 **P4** — ¿Cuál es la diferencia entre `git fetch` y `git pull`? ¿Cuándo preferirías usar uno sobre el otro?
 
-> R:
+> R:git pull hace un git fetch y mergea los cambios al mismo tiempo, se podría decir entonce que cada vez que hago un git pull, hago por consecuente un git fetch y un git merge. git merge trae los cambios al remoto, te sirve para comparar antes de aplicar lo nuevo, mientras que en git pull no va a haber conflictos y deseas actualizar el repo de manera rápida. 
 
 **P5** — ¿Qué información debería tener la descripción de un Pull Request para que sea útil para quien lo revisa?
 
-> R:
+> R:La descripción debe incluir los cambios actualizados, porqué fueorn realizados, con que finalidad y como se pueden probar/corroborar para que lo acepten o rechacen.
 
 ---
 
