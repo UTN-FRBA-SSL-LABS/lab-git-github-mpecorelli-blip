@@ -413,7 +413,7 @@ Deberías ver el commit `wip: experimento roto` seguido del `Revert "wip: experi
 
 **P1** — ¿Por qué `git revert` es preferible a `git reset --hard` cuando ya hiciste push de los cambios?
 
-> R:
+> R:git revert es preferible porque no modifica el historial existente, sino que agrega un nuevo commit que deshace los cambios. 
 
 ```
 PARTE_III_COMPLETA=SI
@@ -532,10 +532,10 @@ git push
 
 **P2** — Describí con tus palabras qué diferencia hay entre las dos implementaciones de `esPar` que conflictuaban. ¿En qué caso podría importar elegir una sobre la otra?
 
-> R:
+> R:Ambas verifican si un número es par, pero con % 2, la escritura resulta más clara, mientras que la versión con & 1 usa operaciones binarias para inspeccionar el último bit. La operacion binaria puede llegar a ser más efectica aunque menos legible.
 
 ```
-PARTE_IV_COMPLETA=
+PARTE_IV_COMPLETA=SI
 ```
 _(escribí SI cuando el conflicto esté resuelto y pusheado)_
 
