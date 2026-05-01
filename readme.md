@@ -416,7 +416,7 @@ Deberías ver el commit `wip: experimento roto` seguido del `Revert "wip: experi
 > R:
 
 ```
-PARTE_III_COMPLETA=
+PARTE_III_COMPLETA=SI
 ```
 _(escribí SI cuando el revert esté pusheado)_
 
